@@ -1,6 +1,7 @@
 import student_menu
 # input teacher_menu
 import member_list
+import admin_menu
 
 
 def log(name):

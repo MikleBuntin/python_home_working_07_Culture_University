@@ -12,10 +12,11 @@ def add():
     name = input("Введите имя: ")
     surname = input("Введите отчество: ")
     group = input("Введите группу: ")
-    new_member = str('$ID:{}$F:{}$N:{}$S:{}$st:0$gr:{}'.format(max_id + 1, family, name, surname, group)
+    new_member = str('$ID:{}$F:{}$N:{}$S:{}$st:0$gr:{}'.format(max_id + 1, family, name, surname, group))
 
     with open('member_list.csv', 'a') as m_list:
-        m_list.write(new_member)
+        # m_list.write(new_member)
+
         for line in m_list:
             member_id = line[line.find('$ID:') + 4: line.find('$ID:') + 6]
             if member_id == max_id + 1:
