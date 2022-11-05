@@ -1,5 +1,5 @@
 import student_menu
-# input teacher_menu
+import teacher_menu
 import member_list
 import admin_menu
 
@@ -14,7 +14,7 @@ def log(name):
     elif member_list.status(name) == 0:
         student_menu.hello(name)
     elif member_list.status(name) == 1:
-        teacher_menu.hello(name)
+        return teacher_menu.menu(teacher_menu.hello(name))
 
     else:
         print("Имя введено неверно или Вы не зарегистрированы. \n "
