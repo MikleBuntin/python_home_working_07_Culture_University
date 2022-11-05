@@ -1,14 +1,21 @@
 import student_menu
-input teacher_menu
+# input teacher_menu
 import member_list
 
 
 def log(name):
-    if member_list.status(name) == 0:
+    if name == '0':
+        return "1"
+    elif name == "q" or name == 'Q':
+        return "0"
+    elif name == "admin":
+        return admin_menu.menu()
+    elif member_list.status(name) == 0:
         student_menu.hello(name)
-
-    elif name in teachers:
+    elif member_list.status(name) == 1:
         teacher_menu.hello(name)
+
     else:
         print("Имя введено неверно или Вы не зарегистрированы. \n "
               "Введите снова или обратитесь к преподавателю")
+        return '1'
