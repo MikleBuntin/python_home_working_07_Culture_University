@@ -24,4 +24,4 @@ print('0')
 while log_in.log(name) == '1':
     name = input('Введите Ф.И.О. в формате "Иванов А.В.": ')
 
-print("Goodbye!!")
+print("Хорошего дня!")
