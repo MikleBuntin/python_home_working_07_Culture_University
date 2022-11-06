@@ -1,15 +1,20 @@
-def get_new_id():
-    with open('member_list.csv', 'r') as m_list:
-        max_id = 0
-        for line in m_list:
-            if line != '':
-                member_id = int(line[line.find('$ID:') + 4: line.find('$F:')])
-                if member_id > max_id:
-                    max_id = member_id
-    return max_id + 1
+import member_list
 
-def add():
-    new_id = get_new_id()
+
+
+
+# def get_new_id():
+#     with open('member_list.csv', 'r') as m_list:
+#         max_id = 0
+#         for line in m_list:
+#             if line != '':
+#                 member_id = int(line[line.find('$ID:') + 4: line.find('$F:')])
+#                 if member_id > max_id:
+#                     max_id = member_id
+#     return max_id + 1
+
+def add_member():
+    new_id = member_list.get_new_id()
     family = input("Введите фамилию: ")
     name = input("Введите имя: ")
     surname = input("Введите отчество: ")

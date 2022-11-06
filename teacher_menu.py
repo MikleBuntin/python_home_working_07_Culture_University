@@ -9,7 +9,7 @@ def hello(fio):
             name = line[line.find('$N:') + 3: line.find('$S:')]
             surname = line[line.find('$S:') + 3: line.find('$st:')]
             id = line[line.find('$ID:') + 3: line.find('$F:')]
-            if fio == family + name[:1] + '.' + surname[:1] +'.':
+            if fio == family + ' ' + name[:1] + '.' + surname[:1] +'.':
                 print("Здравствуйте, {} {}".format(name, surname))
                 return id
 
@@ -22,13 +22,14 @@ def menu(id):
               "4 - добавить занятие в расписание \n 5 - добавить домашнее задание")
         command = input("Введите номер команды: ")
         if command == '1':
-            teacher_commands.add_student()
+            teacher_commands.add_student(id)
         elif command == '2':
-            teacher_commands.view_student()
+            teacher_commands.view_student(id)
         elif command == '3':
             teacher_commands.take_time_table(id)
         elif command == '4':
             teacher_commands.add_class(id)
         elif command == '5':
-            teacher_commands.add_home_work()
+            teacher_commands.add_home_work(id)
+
             admin_commands.view(input("'all' - все, или введите фамилию: "))
