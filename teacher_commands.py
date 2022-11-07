@@ -40,4 +40,8 @@ def add_class(id):
         return '0'
 
 
-# def add_home_work():
+def add_home_work(id):
+    if time_table.add_home_work(id):
+        print("занятие добавлено.")
+    else:
+        return '0'
