@@ -18,6 +18,10 @@
 import log_in
 
 print("Hello!!!")
-name = input('Введите Ф.И.О. в формате "Иванов А.В.": ')
-log_in.log(name)
-print("Goodbye!!")
+name = '0'
+print('0')
+# name = input('Введите Ф.И.О. в формате "Иванов А.В.": ')
+while log_in.log(name) == '1':
+    name = input('Введите Ф.И.О. в формате "Иванов А.В.": ')
+
+print("Хорошего дня!")
