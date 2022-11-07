@@ -7,7 +7,7 @@ def add_student(id):
     name = input("Введите имя: ")
     surname = input("Введите отчество: ")
     comment = input("Введите группу: ")
-    new_member = str('$ID:{}$F:{}$N:{}$S:{}$st:0$com:{}'.format(new_id, family, name, surname, comment))
+    new_member = str('\n $ID:{}$F:{}$N:{}$S:{}$st:0$com:{}'.format(new_id, family, name, surname, comment))
 
     with open('member_list.csv', 'a') as m_list:
         m_list.write(new_member)
@@ -29,7 +29,7 @@ def add_student(id):
 
 
 def get_time_table(id):
-    time_table.view_teacher(id)
+    time_table.view_time_table(id)
 
 
 

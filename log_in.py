@@ -12,7 +12,7 @@ def log(name):
     elif name == "admin":
         return admin_menu.menu()
     elif member_list.status(name) == '0':
-        student_menu.hello(name)
+        return student_menu.menu(student_menu.hello(name))
     elif member_list.status(name) == '1':
         return teacher_menu.menu(teacher_menu.hello(name))
 

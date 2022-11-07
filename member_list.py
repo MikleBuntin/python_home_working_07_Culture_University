@@ -31,7 +31,7 @@ def get_id(fio):
             family = line[line.find('$F:') + 3: line.find('$N:')]
             name = line[line.find('$N:') + 3: line.find('$S:')]
             surname = line[line.find('$S:') + 3: line.find('$st:')]
-            id = line[line.find('$ID:') + 3: line.find('$F:')]
+            id = int(line[line.find('$ID:') + 4: line.find('$F:')])
             if fio == family + ' ' + name[:1] + '.' + surname[:1] + '.':
                 # print("Здравствуйте, {} {}".format(name, surname))
                 return id
@@ -43,7 +43,7 @@ def get_fio(id):
                 family = line[line.find('$F:') + 3: line.find('$N:')]
                 name = line[line.find('$N:') + 3: line.find('$S:')]
                 surname = line[line.find('$S:') + 3: line.find('$st:')]
-                print(family + ' ' + name[:1] + '.' + surname[:1] + '.')
+                # print(family + ' ' + name[:1] + '.' + surname[:1] + '.')
                 return family + ' ' + name[:1] + '.' + surname[:1] + '.'
 
 def get_name(id):
