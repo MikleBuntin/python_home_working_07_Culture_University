@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70778705-0312-45c7-a942-c1395166f728" name="Changes" comment="">
+    <list default="true" id="70778705-0312-45c7-a942-c1395166f728" name="Changes" comment="Исправил добавление ДЗ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/member_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/teacher_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/time_table.csv" beforeDir="false" afterPath="$PROJECT_DIR$/time_table.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667836444840</updated>
     </task>
+    <task id="LOCAL-00001" summary="Исправил добавление ДЗ">
+      <created>1667837032159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667837032159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -103,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Коммичу служубные файлы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коммичу служубные файлы" />
+    <MESSAGE value="Исправил добавление ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил добавление ДЗ" />
   </component>
 </project>

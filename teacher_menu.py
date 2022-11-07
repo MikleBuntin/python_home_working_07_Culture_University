@@ -17,7 +17,7 @@ def hello(fio):
 
 def menu(id):
     command = 0
-    while command != "q" or command != "q":
+    while command != "q" or command != "Q":
         print("Menu: \n 1 - добавить студента \n 2 - просмотр карточки студента \n 3 - просмотреть Ваше расписание \n"
               " 4 - добавить занятие в расписание \n 5 - добавить домашнее задание \n Q - выход")
         command = input("Введите номер команды: ")
