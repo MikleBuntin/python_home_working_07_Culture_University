@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6a5fc77-c302-4ae9-aec0-3da0b20362a4" name="Changes" comment="Коммит с бука">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_home_working_07_Culture_University.git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_home_working_07_Culture_University.git.iml" afterDir="false" />
+    <list default="true" id="70778705-0312-45c7-a942-c1395166f728" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table.csv" beforeDir="false" afterPath="$PROJECT_DIR$/time_table.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,8 +17,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2H59pZb8VMJySqYB1DAS8jTRyFR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2HE3Ug49zitwWJRWL08aZa1sdsJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,9 +40,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\SVZ\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -63,27 +58,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6a5fc77-c302-4ae9-aec0-3da0b20362a4" name="Changes" comment="" />
-      <created>1667564261186</created>
+      <changelist id="70778705-0312-45c7-a942-c1395166f728" name="Changes" comment="" />
+      <created>1667836444840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667564261186</updated>
+      <updated>1667836444840</updated>
     </task>
-    <task id="LOCAL-00001" summary="Коммичу служубные файлы">
-      <created>1667833505492</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667833505492</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Коммит с бука">
-      <created>1667834531562</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1667834531562</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -123,7 +103,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Коммичу служубные файлы" />
-    <MESSAGE value="Коммит с бука" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коммит с бука" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коммичу служубные файлы" />
   </component>
 </project>

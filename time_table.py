@@ -67,7 +67,7 @@ def add_home_work(id):
             if date_from_old_file == date:
                 number_of_class = int(line[line.find('$N:') + 3])
                 if number_of_class == number:
-                    new_file.write(line[:-1] + home_work)
+                    new_file.write(line[:-1] + home_work + '\n')
                 else:
                     new_file.write(line)
 
