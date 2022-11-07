@@ -11,9 +11,9 @@ def log(name):
         return "0"
     elif name == "admin":
         return admin_menu.menu()
-    elif member_list.status(name) == 0:
+    elif member_list.status(name) == '0':
         student_menu.hello(name)
-    elif member_list.status(name) == 1:
+    elif member_list.status(name) == '1':
         return teacher_menu.menu(teacher_menu.hello(name))
 
     else:
